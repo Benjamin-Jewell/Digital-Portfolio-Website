@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(206, 206, 206);
+}
+
+#title-name{
+    padding: 1vh 0 1vh 3vw;
+}
+
+#navbar-tabs{
+    padding: 0 0 0 0;
+}
+
+.home-tab-selected{
+    width: 100%;
+    background-color: rgb(206, 206, 206);
+    border-radius: 15px 15px 0 0;
+}
+
+.home-tab{
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    background-color: rgb(216, 216, 216);
+}
+
+.cv-tab-selected{
+    width: 100%;
+    background-color: rgb(206, 206, 206);
+    border-radius: 15px 15px 0 0;
+}
+
+.cv-tab{
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    background-color: rgb(216, 216, 216);
+}
+
+.module-tab-selected{
+    width: 100%;
+    background-color: rgb(206, 206, 206);
+    border-radius: 20px 20px 0 0;
+}
+
+.module-tab{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    background-color: rgb(216, 216, 216);
+}
+
+.journal-tab-selected{
+    width: 100%;
+    background-color: rgb(206, 206, 206);
+    border-radius: 20px 20px 0 0;
+}
+
+.journal-tab{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    background-color: rgb(216, 216, 216);
+}
+
+.github-tab-selected{
+    width: 100%;
+    background-color: rgb(206, 206, 206);
+    border-radius: 20px 20px 0 0;
+}
+
+.github-tab{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    background-color: rgb(216, 216, 216);
+}
+
+.paragraph-text{
+    padding: 3vw 3vw 3vw 3vw;
+}
