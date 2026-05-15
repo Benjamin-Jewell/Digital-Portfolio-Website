@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(206, 206, 206);
+    background-color: rgb(255, 255, 255);
 }
 
 #title-name{
@@ -12,7 +12,7 @@ body{
 
 .home-tab-selected{
     width: 100%;
-    background-color: rgb(206, 206, 206);
+    background-color: rgb(255, 255, 255);
     border-radius: 15px 15px 0 0;
 }
 
@@ -24,7 +24,7 @@ body{
 
 .cv-tab-selected{
     width: 100%;
-    background-color: rgb(206, 206, 206);
+    background-color: rgb(255, 255, 255);
     border-radius: 15px 15px 0 0;
 }
 
@@ -36,7 +36,7 @@ body{
 
 .module-tab-selected{
     width: 100%;
-    background-color: rgb(206, 206, 206);
+    background-color: rgb(255, 255, 255);
     border-radius: 20px 20px 0 0;
 }
 
@@ -48,7 +48,7 @@ body{
 
 .journal-tab-selected{
     width: 100%;
-    background-color: rgb(206, 206, 206);
+    background-color: rgb(255, 255, 255);
     border-radius: 20px 20px 0 0;
 }
 
@@ -60,7 +60,7 @@ body{
 
 .github-tab-selected{
     width: 100%;
-    background-color: rgb(206, 206, 206);
+    background-color: rgb(255, 255, 255);
     border-radius: 20px 20px 0 0;
 }
 
@@ -71,5 +71,10 @@ body{
 }
 
 .paragraph-text{
-    padding: 3vw 3vw 3vw 3vw;
+    padding: 4vw 4vw 4vw 4vw;
+}
+
+.word-doc-viewer{
+    display: flex;
+    justify-self: center
 }
