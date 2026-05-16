@@ -71,10 +71,32 @@ body{
 }
 
 .paragraph-text{
-    padding: 4vw 4vw 4vw 4vw;
+    padding: 6vw 15vw 6vw 15vw;
 }
 
 .word-doc-viewer{
     display: flex;
     justify-self: center
+}
+
+.accordion-item {
+  border: 1px solid #dee2e6;
+  border-radius: 12px !important;
+  overflow: hidden;
+}
+
+.accordion-item:not(:first-of-type) {
+  border-top: 1px solid #dee2e6;
+}
+
+.accordion-button {
+  border-radius: 12px !important;
+}
+
+.accordion-button:not(.collapsed) {
+  box-shadow: none;
+}
+
+.accordion {
+  --bs-accordion-border-width: 0;
 }
