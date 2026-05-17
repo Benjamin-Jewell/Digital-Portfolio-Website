@@ -48,12 +48,24 @@
         <h5>My Digital CV</h5>
         <br>
         <p>This page outlines my academic background, skills, and practical experience as I continue developing my career and expanding my expertise in the field. It complements my portfolio by providing deeper insight into my skills and career progression.</p>
+        <div class="row">
+            <div class="col-5">
+                <p>Document not displaying correctly? Click here to view as an image:</p>
+            </div>
+            <div class="col">
+                <button type="submit" onclick="changeCvDisplay()" class="btn btn-secondary" id="cv-display-button">View as image</button>
+            </div>
+        </div>
         <br>
-        <iframe class="word-doc-viewer" src="https://ucscollegegroup-my.sharepoint.com/personal/jew23000987_ucscollegegroup_ac_uk/_layouts/15/Doc.aspx?sourcedoc={3cb82d60-3ea0-4f75-9516-c5b0bb6f7038}&amp;action=embedview" width="1000px" height="1200px" frameborder="0" title="PowerPoint Viewer">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> document, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+        <div>
+            <iframe class="word-doc-viewer" id="cv-display" src="https://ucscollegegroup-my.sharepoint.com/personal/jew23000987_ucscollegegroup_ac_uk/_layouts/15/Doc.aspx?sourcedoc={3cb82d60-3ea0-4f75-9516-c5b0bb6f7038}&amp;action=embedview" width="1000px" height="1200px" frameborder="0" title="PowerPoint Viewer">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> document, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+        </div>
     </div>
     
 
     <!-- Bootstrap JavaScript connection -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
 </body>
 </html>
