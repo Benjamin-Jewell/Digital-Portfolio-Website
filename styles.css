@@ -100,3 +100,13 @@ body{
 .accordion {
   --bs-accordion-border-width: 0;
 }
+
+#programming-assignment-one{
+    display: flex;
+    justify-self: center;
+}
+
+#programming-assignment-two{
+    display: flex;
+    justify-self: center;
+}
