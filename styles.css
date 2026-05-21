@@ -158,3 +158,9 @@ body{
     display: flex;
     justify-self: center;
 }
+
+.journal-entry{
+    border: 1px solid #dee2e6;
+    border-radius: 12px !important;
+    padding: 1vw 1vw 1vw 1vw;
+}
