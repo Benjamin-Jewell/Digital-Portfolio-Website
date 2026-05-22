@@ -164,3 +164,9 @@ body{
     border-radius: 12px !important;
     padding: 1vw 1vw 1vw 1vw;
 }
+
+.github-repo-img{
+    display: flex;
+    justify-self: center;
+    width: 40vw;
+}
